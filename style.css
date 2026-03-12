@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f8ff;
+    color:#1a1a1a;
+    line-height:1.6;
+}
+
+/* Header */
+
+header{
+    background:#0a3d91;
+    color:white;
+    padding:40px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:40px;
+}
+
+header p{
+    opacity:0.9;
+}
+
+/* Section */
+
+section{
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+h2{
+    color:#0a3d91;
+    margin-bottom:20px;
+}
+
+/* Card */
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.05);
+    margin-bottom:20px;
+}
+
+/* Skills */
+
+.skills span{
+    display:inline-block;
+    background:#e3edff;
+    color:#0a3d91;
+    padding:6px 12px;
+    border-radius:20px;
+    margin:5px;
+    font-size:14px;
+}
+
+/* =========================
+   Projects
+========================= */
+
+.project{
+    border-left:5px solid #0a3d91;
+    transition:0.25s;
+}
+
+.project:hover{
+    transform:translateY(-4px);
+    box-shadow:0 8px 18px rgba(0,0,0,0.08);
+}
+
+.project-title{
+    font-size:20px;
+    color:#0a3d91;
+    margin-bottom:6px;
+}
+
+.project-team{
+    font-size:14px;
+    color:#666;
+    margin-bottom:10px;
+}
+
+.project-tech{
+    font-size:15px;
+    margin-bottom:6px;
+}
+
+.project-note{
+    font-size:14px;
+    color:#888;
+    font-style:italic;
+}
+
+.project a{
+    text-decoration:none;
+    color:#0a3d91;
+    font-weight:bold;
+}
+
+/* Contact */
+
+.contact a{
+    color:#0a3d91;
+    text-decoration:none;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    padding:20px;
+    font-size:14px;
+    color:#555;
+}
